@@ -5,14 +5,14 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'embed code';
-}
+    }
 
 body {
     background-color: bisque;
 }
 
 main {
-    background-color:darkgoldenrod;
+    background-color:rgb(207, 96, 5);
     border-radius: 8px;
     padding: 20px;
     width: 90%;
@@ -40,7 +40,7 @@ input {
 }
 
 button[type="submit"] {
-    background-color: bisque;
+    background-color: rgb(253, 140, 2);
     height: 50px;
     width: 50px;
     border: none;
@@ -57,6 +57,7 @@ button[type="submit"] {
 table {
     border-collapse: collapse;
     width: 100%;
+    border-radius: 60%;
 }
 
 td, th {
@@ -66,7 +67,7 @@ td, th {
 }
 
 td {
-    color: #333;
+    color: #000000;
     font-weight: 600;
 }
 
@@ -78,7 +79,33 @@ select {
     width: 100%;
     border: none;
     padding: 10px;
-    border-radius: 8px;
+    border-radius: 1%;
     font-weight: 600;
     text-transform: capitalize;
+    background-color: rgb(207, 96, 5);
+}
+
+select:hover {
+    background-color: rgba(212, 129, 60, 0.781);
+}
+
+button:hover{
+    background-color: #333;
+}
+
+.btn-action {
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    color: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-action:nth-child(1) {
+    background-color: orange;
+}
+.btn-action:nth-child(2) {
+    background-color: rgba(237, 42, 42, 0.9);
 }
