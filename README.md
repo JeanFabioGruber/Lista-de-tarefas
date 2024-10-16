@@ -108,7 +108,6 @@ Acesse a API em [http://localhost:3000].
    {
      "status": "concluída"
    }
-  ```
 
 ## Endpoints da API
 
