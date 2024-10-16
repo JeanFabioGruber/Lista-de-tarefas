@@ -1,16 +1,16 @@
-# To-Do List API
+# To-Do List API 📝
 
 Este projeto é uma API simples para gerenciamento de tarefas (To-Do List), construída com **Node.js**, **Express**, e **MySQL**. A API permite a criação, leitura, atualização e remoção de tarefas.
 
-## Funcionalidades
+## Funcionalidades✨
 
 A API oferece as seguintes funcionalidades:
-- **Criar uma nova tarefa**
-- **Listar todas as tarefas**
-- **Atualizar o status de uma tarefa**
-- **Deletar uma tarefa**
+- **Criar uma nova tarefa**✅
+- **Listar todas as tarefas**📋
+- **Atualizar o status de uma tarefa**🔄
+- **Deletar uma tarefa**❌
 
-## Tecnologias Utilizadas
+## Tecnologias Utilizadas 🛠️
 
 - **Node.js**: Plataforma JavaScript server-side.
 - **Express**: Framework para Node.js que facilita a criação de APIs.
@@ -19,7 +19,7 @@ A API oferece as seguintes funcionalidades:
 - **dotenv**: Gerenciamento de variáveis de ambiente.
 - **CORS**: Middleware para permitir o acesso a partir de outras origens.
 
-## Dependências
+## Dependências📦
 
 ```json
 {
@@ -32,7 +32,7 @@ A API oferece as seguintes funcionalidades:
 }
 ```
 
-# Configuração do Banco de Dados
+# Configuração do Banco de Dados 🗄️
 
 Execute o seguinte comando SQL no seu banco de dados MySQL para criar a tabela necessária para armazenar as tarefas:
 
@@ -45,7 +45,7 @@ CREATE TABLE tasks (
 );
 ```
 
-# Variáveis de Ambiente
+# Variáveis de Ambiente🌍
 
 Você precisará criar um arquivo `.env` na raiz do projeto com as seguintes variáveis:
 
@@ -55,7 +55,7 @@ DB_USER=seu_user
 DB_PASSWORD=sua_senha
 DB_NAME=todolist
 ```
-# Como Executar o Projeto
+# Como Executar o Projeto 🚀
 
 Clone o repositório:
 
@@ -77,9 +77,9 @@ Inicialize o servidor:
 npm start
 ```
 
-Acesse a API em [http://localhost:3000].
+Acesse a API em [http://localhost:3000].🌐
 
-## Endpoints da API
+## Endpoints da API 📡
 
 1. **Listar todas as tarefas**  
    **URL:** `/tasks`  
@@ -109,14 +109,12 @@ Acesse a API em [http://localhost:3000].
      "status": "concluída"
    }
 
-## Endpoints da API
-
 4. **Deletar uma tarefa**  
    **URL:** `/tasks/:id`  
    **Método:** `DELETE`  
    **Descrição:** Remove uma tarefa específica.
 
-## Middlewares
+## Middlewares ⚙️
 
 - **validateBody:** Middleware que valida o corpo das requisições POST.
 - **validatePutBody:** Middleware que valida o corpo das requisições PUT.
