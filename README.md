@@ -97,7 +97,7 @@ Acesse a API em [http://localhost:3000].
      "title": "Nome da tarefa",
      "status": "pendente"
    }
-  ``
+  
 3. **Atualizar uma tarefa**  
    **URL:** `/tasks/:id`  
    **Método:** `PUT`  
