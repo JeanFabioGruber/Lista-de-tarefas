@@ -118,3 +118,6 @@ Acesse a API em [http://localhost:3000].🌐
 
 - **validateBody:** Middleware que valida o corpo das requisições POST.
 - **validatePutBody:** Middleware que valida o corpo das requisições PUT.
+
+## Credits to
+Manual do Dev
