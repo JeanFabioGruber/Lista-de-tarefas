@@ -60,7 +60,7 @@ DB_NAME=todolist
 Clone o repositório:
 
 ```
-git clone https://github.com/seu-usuario/todolist-api.git](https://github.com/JeanFabioGruber/Lista-de-tarefas.git
+git clone https://github.com/JeanFabioGruber/Lista-de-tarefas.git
 ```
 
 Instale as dependências:
